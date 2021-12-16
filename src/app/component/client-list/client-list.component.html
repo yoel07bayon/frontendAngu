@@ -12,7 +12,7 @@
       <th scope="col">APELLIDOS</th>
       <th scope="col">DNI</th>
       <th scope="col">CELULAR</th>
-      <th scope="col">EMAIL</th>
+      <th scope="col">SEXO</th>
       <th scope="col">OPCIONES</th>
     </tr>
   </thead>
@@ -23,7 +23,7 @@
       <td>{{ item.apellidos }}</td>
       <td>{{ item.dni }}</td>
       <td>{{ item.celular }}</td>
-      <td>{{ item.email }}</td>
+      <td>{{ item.sexo }}</td>
       <td>
         <a class="btn btn-success" (click)="onEdit(item)">Editar</a>  |
         <a class="btn btn-danger" (click)="onDelete(item.id)">Eliminar</a>

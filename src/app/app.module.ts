@@ -16,6 +16,10 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { AuthInterceptorService } from './service/auth-interceptor.service';
 
 import { LoginComponent } from './component/login/login.component';
+import { PregutListComponent } from './component/pregut-list/pregut-list.component';
+import { PregutAddComponent } from './component/pregut-add/pregut-add.component';
+
+//import { HttpPregutModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -23,7 +27,9 @@ import { LoginComponent } from './component/login/login.component';
     NavbarComponent,
     ClientAddComponent,
     ClientListComponent,
-    LoginComponent
+    LoginComponent,
+    PregutListComponent,
+    PregutAddComponent
 
   ],
   imports: [
@@ -31,6 +37,9 @@ import { LoginComponent } from './component/login/login.component';
     AppRoutingModule,
 
     HttpClientModule,
+
+    //HttpPregutModule,
+
     FormsModule
   ],
   providers: [

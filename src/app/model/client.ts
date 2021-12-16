@@ -4,5 +4,5 @@ export class Client {
   apellidos?:string;
   dni?:string;
   celular?:string;
-  email?:string;
+  sexo?:string;
 }
