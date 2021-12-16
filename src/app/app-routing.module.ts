@@ -5,6 +5,7 @@ import { ClientAddComponent } from './component/client-add/client-add.component'
 import { ClientListComponent } from './component/client-list/client-list.component';
 import { PregutAddComponent } from './component/pregut-add/pregut-add.component';
 import { PregutListComponent } from './component/pregut-list/pregut-list.component';
+import { InicioListComponent } from './component/inicio-list/inicio-list.component';
 
 
 
@@ -13,6 +14,7 @@ const routes: Routes = [
   {path:'add-cliente',component:ClientAddComponent},
   {path:'pregutas-list',component:PregutListComponent},
   {path:'add-pregunta',component:PregutAddComponent},
+  {path:'inicio-list',component:InicioListComponent},
   {path:'login',component:LoginComponent}
 ];
 

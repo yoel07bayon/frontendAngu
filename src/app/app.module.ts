@@ -18,6 +18,7 @@ import { AuthInterceptorService } from './service/auth-interceptor.service';
 import { LoginComponent } from './component/login/login.component';
 import { PregutListComponent } from './component/pregut-list/pregut-list.component';
 import { PregutAddComponent } from './component/pregut-add/pregut-add.component';
+import { InicioListComponent } from './component/inicio-list/inicio-list.component';
 
 //import { HttpPregutModule } from '@angular/common/http';
 
@@ -29,7 +30,8 @@ import { PregutAddComponent } from './component/pregut-add/pregut-add.component'
     ClientListComponent,
     LoginComponent,
     PregutListComponent,
-    PregutAddComponent
+    PregutAddComponent,
+    InicioListComponent
 
   ],
   imports: [
